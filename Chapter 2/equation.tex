@@ -1,0 +1,11 @@
+Exercise 2.2
+
+\begin{align*}
+Q_{n+1} &= Q_n + \alpha_n[R_n-Q_n] \\
+&= \alpha_nR_n + (1-\alpha_n)Q_n \\
+&= \alpha_nR_n + (1-\alpha_n)[\alpha_{n-1}R_{n-1} + (1-\alpha_{n-1})Q_{n-1}] \\
+&= \alpha_nR_n + (1-\alpha_n)\alpha_{n-1}R_{n-1} + (1-\alpha_n)(1-\alpha_{n-1})Q_{n-1} \\
+&= \alpha_nR_n + (1-\alpha_n)\alpha_{n-1}R_{n-1} + \cdots + \prod_{i=2}^{n}(1-\alpha_i)\alpha_1R_1 + \prod_{i=1}^{n}(1-\alpha_i)Q_1 \\
+&= \alpha_nR_n + \sum_{i=1}^{n-1}\prod_{j=i+1}^{n}(1-\alpha_j)\alpha_iR_i + \prod_{i=1}^{n}(1-\alpha_i)Q_1
+\end{align*}
+
