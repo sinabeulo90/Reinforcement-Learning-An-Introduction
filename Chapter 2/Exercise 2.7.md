@@ -21,7 +21,7 @@
 
 ![equation](https://latex.codecogs.com/svg.latex?Q_n) 이 **초기 편차가 없다** 는 것을 증명하기 위해선 초기 편차를 가지는 항 ![equation](https://latex.codecogs.com/svg.latex?\inline&space;\prod_{i=1}^{n}(1-\beta_i)Q_1) 이 0이 되는 지를 확인해야 한다.
 
-![equation](https://latex.codecogs.com/svg.latex?\overline{o}_n) 은 보상값이 1이고 고정 시간 간격 ![equation](https://latex.codecogs.com/svg.latex?\alpha) 를 가지는 기하급수적 최신 가중치 평균이므로, (식 2.6) 방법으로 정리하면 아래와 같다.
+![equation](https://latex.codecogs.com/svg.latex?\overline{o}_n) 은 보상값이 1이고 고정 시간 간격 ![equation](https://latex.codecogs.com/svg.latex?\alpha) 를 가지는 기하급수적 최신 가중 평균이므로, (식 2.6) 방법으로 정리하면 아래와 같다.
 
 <img src="https://latex.codecogs.com/svg.latex?\inline&space;\begin{align*}&space;\overline{O}_n&space;&=&space;\overline{O}_{n-1}&space;&plus;&space;\alpha[1-\overline{O}_{n-1}]&space;\\&space;&=&space;\cdots&space;\\&space;&=&space;(1-\alpha)^nQ_0&space;&plus;&space;\sum_{i=0}^{n-1}\alpha(1-\alpha)^n&space;\\&space;&=&space;\sum_{i=0}^{n-1}\alpha(1-\alpha)^n&space;\end{align*}" title="\begin{align*} \overline{O}_n &= \overline{O}_{n-1} + \alpha[1-\overline{O}_{n-1}] \\ &= \cdots \\ &= (1-\alpha)^nQ_0 + \sum_{i=0}^{n-1}\alpha(1-\alpha)^n \\ &= \sum_{i=0}^{n-1}\alpha(1-\alpha)^n \end{align*}" />
 
