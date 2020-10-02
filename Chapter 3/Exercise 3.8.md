@@ -10,3 +10,14 @@
 
 ### Answer:
 
+최종 시간 단계 ![equation](https://latex.codecogs.com/svg.latex?T) 이후의 보상값과 이득이 0이라고 하자.
+
+| ![equation](https://latex.codecogs.com/svg.latex?t) | ![equation](https://latex.codecogs.com/svg.latex?R_t) | ![equation](https://latex.codecogs.com/svg.latex?G_t\(=R_{t+1}+\gamma&space;G_{t+1}\)) |
+|:-:|:-:|:-:|
+| 6 | 0 | 0 |
+| 5 | 2 | 0 |
+| 4 | 3 | 2 |
+| 3 | 6 | 4 |
+| 2 | 2 | 8 |
+| 1 | -1 | 6 |
+| 0 | - | 2 |
