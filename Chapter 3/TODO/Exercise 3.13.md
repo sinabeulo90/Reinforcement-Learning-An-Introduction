@@ -6,3 +6,4 @@
 
 ### Answer:
 
+![equation](https://latex.codecogs.com/svg.latex?q_\pi(s,a)&space;\doteq&space;\sum_{s',r}p(s',r|s,a)[r&space;&plus;&space;\gamma&space;v_\pi(s')])

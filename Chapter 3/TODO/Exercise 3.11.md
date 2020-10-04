@@ -6,3 +6,4 @@
 
 ### Answer:
 
+![equation](https://latex.codecogs.com/svg.latex?\mathbb{E}_\pi[R_{t&plus;1}|S_t=s]&space;=&space;\sum_{a}&space;\pi(a|s)&space;\sum_{s',r}&space;p(s',r|s,a)&space;r)
