@@ -1,0 +1,9 @@
+## Exercise 3.29
+
+### Question:
+
+네 개의 가치 함수 (![equation](https://latex.codecogs.com/svg.latex?v_\pi,v_*,q_\pi,q_*))를 위한 네 개의 벨만 방정식을 세 개의 변수를 갖는 함수 ![equation](https://latex.codecogs.com/svg.latex?p) (식 3.4)와 두 개의 변수를 갖는 함수 ![equation](https://latex.codecogs.com/svg.latex?r) (식 3.5)을 이용하여 나타내어라.
+
+### Answer:
+
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;v_\pi(s)&space;&\doteq&space;\mathbb{E}_\pi[G_t&space;|&space;S_t=s]&space;\\&space;&=&space;\mathbb{E}_\pi[R_{t&plus;1}&space;&plus;&space;\gamma&space;G_{t&plus;1}&space;|&space;S_t=s]&space;\\&space;&=&space;\sum_a[r(s,a)&space;&plus;&space;\gamma&space;\sum_{s'}p(s'|s,a)v(s')]&space;\pi(a|s)&space;\\&space;v_*(s)&space;&=&space;\sum_a[r(s,a)&space;&plus;&space;\gamma&space;\sum_{s'}p(s'|s,a)v_*(s')]&space;\pi_*(a|s)&space;\\&space;q_\pi(s,a)&space;&\doteq&space;\mathbb{E}_\pi[G_t&space;|&space;S_t=s,&space;A_t=a]&space;\\&space;&=&space;\mathbb{E}_\pi[R_{t&plus;1}&space;&plus;&space;\gamma&space;G_{t&plus;1}&space;|&space;S_t=s,&space;A_t=a]&space;\\&space;&=&space;r(s,a)&space;&plus;&space;\gamma&space;\sum_{s'}p(s'|s,a)&space;\sum_{a'}q_\pi(a',s')\pi(a'|s')&space;\\&space;q_*(s,a)&space;&=&space;r(s,a)&space;&plus;&space;\gamma&space;\sum_{s'}p(s'|s,a)&space;\sum_{a'}q_*(a',s')\pi_*(a'|s')&space;\end{align*}" title="\begin{align*} v_\pi(s) &\doteq \mathbb{E}_\pi[G_t | S_t=s] \\ &= \mathbb{E}_\pi[R_{t+1} + \gamma G_{t+1} | S_t=s] \\ &= \sum_a[r(s,a) + \gamma \sum_{s'}p(s'|s,a)v(s')] \pi(a|s) \\ v_*(s) &= \sum_a[r(s,a) + \gamma \sum_{s'}p(s'|s,a)v_*(s')] \pi_*(a|s) \\ q_\pi(s,a) &\doteq \mathbb{E}_\pi[G_t | S_t=s, A_t=a] \\ &= \mathbb{E}_\pi[R_{t+1} + \gamma G_{t+1} | S_t=s, A_t=a] \\ &= r(s,a) + \gamma \sum_{s'}p(s'|s,a) \sum_{a'}q_\pi(a',s')\pi(a'|s') \\ q_*(s,a) &= r(s,a) + \gamma \sum_{s'}p(s'|s,a) \sum_{a'}q_*(a',s')\pi_*(a'|s') \end{align*}" />

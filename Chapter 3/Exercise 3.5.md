@@ -6,6 +6,6 @@
 
 ### Answer:
 
-모든 ![equation](https://latex.codecogs.com/svg.latex?s&space;\in&space;\mathcal{S}^+,&space;a&space;\in&space;\mathcal{A}(s))에 대해 ![equation](https://latex.codecogs.com/svg.latex?\sum_{s'&space;\in&space;\mathcal{S}^+}&space;\sum_{r&space;\in&space;\mathcal{R}}p(s',&space;r&space;|&space;s,&space;a)&space;=&space;1)
+모든 ![equation](https://latex.codecogs.com/svg.latex?s&space;\in&space;\mathcal{S}^+,&space;a&space;\in&space;\mathcal{A}(s))에 대해 ![equation](https://latex.codecogs.com/svg.latex?\inline\sum_{s'&space;\in&space;\mathcal{S}^+}&space;\sum_{r&space;\in&space;\mathcal{R}}p(s',&space;r&space;|&space;s,&space;a)&space;=&space;1)
 
 에피소딕 작업을 적용하기 위해, 식 3.3에서 모든 비종단 상태의 집합 ![equation](https://latex.codecogs.com/svg.latex?\mathcal{S}) 대신 종단 상태를 포함하는 모든 상태의 집합 ![equation](https://latex.codecogs.com/svg.latex?\mathcal{S}^+) 를 적용한다.
