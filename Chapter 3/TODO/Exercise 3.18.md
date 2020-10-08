@@ -8,4 +8,4 @@
 
 ### Answer:
 
-<img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;v_\pi(s)&space;&=&space;\mathbb{E}_\pi[q_\pi(s,&space;a)]&space;\\&space;&=&space;\sum_a&space;\pi(s|a)&space;q_\pi(s,a)&space;\end{align*}" title="\begin{align*} v_\pi(s) &= \mathbb{E}_\pi[q_\pi(s, a)] \\ &= \sum_a \pi(s|a) q_\pi(s,a) \end{align*}" />
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;v_\pi(s)&space;&=&space;\mathbb{E}[q_\pi(s,&space;a)]&space;\\&space;&=&space;\sum_a&space;\pi(s|a)&space;q_\pi(s,a)&space;\end{align*}" title="\begin{align*} v_\pi(s) &= \mathbb{E}[q_\pi(s, a)] \\ &= \sum_a \pi(s|a) q_\pi(s,a) \end{align*}" />

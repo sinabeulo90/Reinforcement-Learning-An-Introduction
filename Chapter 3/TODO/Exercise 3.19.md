@@ -8,4 +8,4 @@
 
 ### Answer:
 
-<img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;q_\pi(s,a)&space;&=&space;\mathbb{E}_\pi[R_{t&plus;1}&space;&plus;&space;\gamma&space;v_\pi(S_{t&plus;1})&space;|&space;S_t=s,&space;A_t=a]&space;\\&space;&=&space;\sum_{s',r}&space;p(s',r|s,a)&space;[r&space;&plus;&space;\gamma&space;v_\pi(s')]&space;\end{align*}" title="\begin{align*} q_\pi(s,a) &= \mathbb{E}_\pi[R_{t+1} + \gamma v_\pi(S_{t+1}) | S_t=s, A_t=a] \\ &= \sum_{s',r} p(s',r|s,a) [r + \gamma v_\pi(s')] \end{align*}" />
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;q_\pi(s,a)&space;&=&space;\mathbb{E}[R_{t&plus;1}&space;&plus;&space;\gamma&space;v_\pi(S_{t&plus;1})&space;|&space;S_t=s,&space;A_t=a]&space;\\&space;&=&space;\sum_{s',r}&space;p(s',r|s,a)&space;[r&space;&plus;&space;\gamma&space;v_\pi(s')]&space;\end{align*}" title="\begin{align*} q_\pi(s,a) &= \mathbb{E}[R_{t+1} + \gamma v_\pi(S_{t+1}) | S_t=s, A_t=a] \\ &= \sum_{s',r} p(s',r|s,a) [r + \gamma v_\pi(s')] \end{align*}" />
