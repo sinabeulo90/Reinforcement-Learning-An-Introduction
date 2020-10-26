@@ -15,7 +15,7 @@
 >
 > [+] 모든 ![equation](https://latex.codecogs.com/svg.latex?\inline&space;s\in&space;S,&space;a\in&space;A(s)) 에 대해 ![equation](https://latex.codecogs.com/svg.latex?\inline&space;N(s,a)&space;\leftarrow&space;0)
 
-**(각 에피소드에 대해 정) 무한 루프**
+**(각 에피소드에 대해) 무한 루프**
 > ...
 > > ![equation](https://latex.codecogs.com/svg.latex?\inline&space;G) 에 ![equation](https://latex.codecogs.com/svg.latex?\inline&space;\gamma&space;G+R_{t+1}) 을 대입
 > >
