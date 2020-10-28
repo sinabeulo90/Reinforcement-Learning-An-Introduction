@@ -6,11 +6,11 @@
 
 ### Answer:
 
-#### 소프트맥스 분포
+**소프트맥스 분포**
 
 <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;Pr&space;\left&space;\{&space;A_t&space;=&space;a&space;\right&space;\}&space;&=&space;\frac{e^{H_t(a)}}{\sum_{b=1}^{k}e^{H_t(b)}}&space;\\&space;&=&space;\frac{e^{H_t(a)}}{e^{H_t(a)}&space;&plus;&space;e^{H_t(b)}}&space;\\&space;&=&space;\frac{1}{1&space;&plus;&space;e^{H_t(b)-H_t(a)}}&space;\end{align*}" title="\begin{align*} Pr \left \{ A_t = a \right \} &= \frac{e^{H_t(a)}}{\sum_{b=1}^{k}e^{H_t(b)}} \\ &= \frac{e^{H_t(a)}}{e^{H_t(a)} + e^{H_t(b)}} \\ &= \frac{1}{1 + e^{H_t(b)-H_t(a)}} \end{align*}" />
 
-#### 시그모이드 함수(로지스틱 함수)
+**시그모이드 함수(로지스틱 함수)**
 
 <img src="https://latex.codecogs.com/svg.latex?Pr&space;\left&space;\{&space;A_t&space;=&space;a&space;\right&space;\}&space;=&space;\frac{1}{1&space;&plus;&space;e^{-H_t(a)}}" title="Pr \left \{ A_t = a \right \} = \frac{1}{1 + e^{-H_t(a)}}" />
 
