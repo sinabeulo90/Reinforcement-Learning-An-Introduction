@@ -6,4 +6,4 @@
 
 ### Answer:
 
-![image](./Chapter%203/assets/Exercise%203.20.png)
+![image](./assets/Exercise%203.20.png)

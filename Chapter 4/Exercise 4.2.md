@@ -10,4 +10,4 @@
 
 상태 13의 동역학이 새로운 상태 15로 이동하는 경우를 포함하더라도, ![equation](https://latex.codecogs.com/svg.latex?v_\pi(13)) 의 값은 변하지 않으므로, ![equation](https://latex.codecogs.com/svg.latex?v_\pi(15)=15) 이다.
 
-[Ch 4.1 testbed.ipynb](./Chapter%204/Ch%204.1%20testbed.ipynb)
+[Ch 4.1 testbed.ipynb](./Ch%204.1%20testbed.ipynb)
