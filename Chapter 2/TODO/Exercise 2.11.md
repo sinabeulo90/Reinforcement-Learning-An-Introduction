@@ -6,4 +6,4 @@
 
 ### Answer:
 
-[Ch 2.10 testbed.ipynb](./Chapter%202/Ch%202.10%20testbed.ipynb)
+[Ch 2.10 testbed.ipynb](./Ch%202.10%20testbed.ipynb)
